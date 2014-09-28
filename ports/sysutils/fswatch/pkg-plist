@@ -1,0 +1,47 @@
+bin/fswatch
+bin/fswatch-run
+bin/fswatch-run-zsh
+include/libfswatch/c++/event.h
+include/libfswatch/c++/filter.h
+include/libfswatch/c++/kqueue_monitor.h
+include/libfswatch/c++/libfswatch_exception.h
+include/libfswatch/c++/monitor.h
+include/libfswatch/c++/poll_monitor.h
+include/libfswatch/c/cevent.h
+include/libfswatch/c/cfilter.h
+include/libfswatch/c/cmonitor.h
+include/libfswatch/c/error.h
+include/libfswatch/c/libfswatch.h
+lib/libfswatch.a
+lib/libfswatch.so
+lib/libfswatch.so.0
+lib/libfswatch.so.0.1.0
+man/man7/fswatch.7.gz
+%%PORTDOCS%%%%DOCSDIR%%/AUTHORS
+%%PORTDOCS%%%%DOCSDIR%%/COPYING
+%%PORTDOCS%%%%DOCSDIR%%/LICENSE
+%%PORTDOCS%%%%DOCSDIR%%/NEWS
+%%PORTDOCS%%%%DOCSDIR%%/README.bsd
+%%PORTDOCS%%%%DOCSDIR%%/README.freebsd
+%%PORTDOCS%%%%DOCSDIR%%/README.gnu-build-system
+%%PORTDOCS%%%%DOCSDIR%%/README.linux
+%%PORTDOCS%%%%DOCSDIR%%/README.md
+%%PORTDOCS%%%%DOCSDIR%%/README.osx
+share/doc/libfswatch/AUTHORS
+share/doc/libfswatch/COPYING
+share/doc/libfswatch/LICENSE
+share/doc/libfswatch/NEWS
+share/doc/libfswatch/README.md
+share/locale/en@boldquot/LC_MESSAGES/fswatch.mo
+share/locale/en@boldquot/LC_MESSAGES/libfswatch.mo
+share/locale/en@quot/LC_MESSAGES/fswatch.mo
+share/locale/en@quot/LC_MESSAGES/libfswatch.mo
+share/locale/es/LC_MESSAGES/fswatch.mo
+share/locale/es/LC_MESSAGES/libfswatch.mo
+share/locale/it/LC_MESSAGES/fswatch.mo
+share/locale/it/LC_MESSAGES/libfswatch.mo
+@dirrmtry include/libfswatch/c
+@dirrmtry include/libfswatch/c++
+@dirrmtry include/libfswatch
+%%PORTDOCS%%@dirrmtry %%DOCSDIR%%
+@dirrmtry share/doc/libfswatch
