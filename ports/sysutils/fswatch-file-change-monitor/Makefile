@@ -1,13 +1,14 @@
 # Created by: Enrico M. Crisostomo <enrico.m.crisostomo@gmail.com>
 # $FreeBSD$
 
-PORTNAME=	fswatch
+PORTNAME=	fswatch-file-change-monitor
 PORTVERSION=	1.4.5.1
 CATEGORIES=	sysutils
 MASTER_SITES=	https://github.com/emcrisostomo/fswatch/releases/download/${PORTVERSION}/
 # The package name suffix is only used when testing the port with non-release
 # source distributions (which currently use the -current suffix).
 # PKGNAMESUFFIX=	-current
+DISTNAME=	fswatch-${DISTVERSIONPREFIX}${DISTVERSION}${DISTVERSIONSUFFIX}
 
 MAINTAINER=	enrico.m.crisostomo@gmail.com
 COMMENT=	Cross-platform file change monitor
@@ -28,7 +29,6 @@ FETCH_CMD=	wget
 FETCH_BEFORE_ARGS=	-nc --no-check-certificate
 DISABLE_SIZE=	yes
 
-WRKSRC=		${WRKDIR}/${PORTNAME}-${PORTVERSION}${PKGNAMESUFFIX}
 USES=		zip libtool
 USE_LDCONFIG=	yes
 GNU_CONFIGURE=	yes

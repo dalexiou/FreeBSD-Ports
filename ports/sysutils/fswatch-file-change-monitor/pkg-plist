@@ -17,16 +17,16 @@ lib/libfswatch.so
 lib/libfswatch.so.0
 lib/libfswatch.so.0.1.0
 man/man7/fswatch.7.gz
-%%PORTDOCS%%%%DOCSDIR%%/AUTHORS
-%%PORTDOCS%%%%DOCSDIR%%/COPYING
-%%PORTDOCS%%%%DOCSDIR%%/LICENSE
-%%PORTDOCS%%%%DOCSDIR%%/NEWS
-%%PORTDOCS%%%%DOCSDIR%%/README.bsd
-%%PORTDOCS%%%%DOCSDIR%%/README.freebsd
-%%PORTDOCS%%%%DOCSDIR%%/README.gnu-build-system
-%%PORTDOCS%%%%DOCSDIR%%/README.linux
-%%PORTDOCS%%%%DOCSDIR%%/README.md
-%%PORTDOCS%%%%DOCSDIR%%/README.osx
+share/doc/fswatch/AUTHORS
+share/doc/fswatch/COPYING
+share/doc/fswatch/LICENSE
+share/doc/fswatch/NEWS
+share/doc/fswatch/README.bsd
+share/doc/fswatch/README.freebsd
+share/doc/fswatch/README.gnu-build-system
+share/doc/fswatch/README.linux
+share/doc/fswatch/README.md
+share/doc/fswatch/README.osx
 share/doc/libfswatch/AUTHORS
 share/doc/libfswatch/COPYING
 share/doc/libfswatch/LICENSE
@@ -43,5 +43,5 @@ share/locale/it/LC_MESSAGES/libfswatch.mo
 @dirrmtry include/libfswatch/c
 @dirrmtry include/libfswatch/c++
 @dirrmtry include/libfswatch
-%%PORTDOCS%%@dirrmtry %%DOCSDIR%%
+@dirrmtry share/doc/fswatch
 @dirrmtry share/doc/libfswatch
