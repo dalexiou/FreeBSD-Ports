@@ -36,8 +36,15 @@ load_rc_config $name
 
 procname="${glassfish_java_home}/bin/java"
 
+# Since we receive the JAVA_HOME variable by default from the Java package
+# we depend on, we override JAVA_HOME only if the user overrid it.
+if [ ! -z ${glassfish_java_home} ] ; then
+  export JAVA_HOME=${glassfish_java_home}
+else
+  export JAVA_HOME=%%JAVA_HOME%%
+fi
+
 export PATH=$PATH:/usr/local/bin
-export JAVA_HOME=${glassfish_java_home}
 export JAVA_OPTS=${glassfish_java_opts}
 
 start_precmd="glassfish_prestart"

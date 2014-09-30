@@ -1,4 +1,4 @@
-# Created by: cjr@cruwe.de
+# Created by: enrico.m.crisostomo@gmail.com
 # $FreeBSD$
 
 PORTNAME=	glassfish
@@ -17,7 +17,10 @@ NO_BUILD=	yes
 WRKSRC=		${WRKDIR}/glassfish4
 DATADIR=	${PREFIX}/${PORTNAME}-${PORTVERSION}
 
-SUB_LIST=	GLASSFISHVERSION=${PORTVERSION}
+# Since we USE_JAVA, we propagate the received JAVA_HOME variable to the
+# template files, since it is used by the rc script.
+SUB_LIST=	GLASSFISHVERSION=${PORTVERSION} \
+		JAVA_HOME=${JAVA_HOME}
 
 DOWNLOAD_URL=	http://dlc.sun.com.edgesuite.net/glassfish/${PORTVERSION}/release/
 
