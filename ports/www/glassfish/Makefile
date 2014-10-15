@@ -1,5 +1,5 @@
-# Created by: enrico.m.crisostomo@gmail.com
-# $FreeBSD$
+# Created by: cjr@cruwe.de
+# $FreeBSD: head/www/glassfish/Makefile 370937 2014-10-15 17:25:25Z pi $
 
 PORTNAME=	glassfish
 PORTVERSION=	4.1
