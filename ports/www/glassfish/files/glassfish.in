@@ -45,7 +45,7 @@ else
   export JAVA_HOME=%%JAVA_HOME%%
 fi
 
-export PATH=$PATH:/usr/local/bin
+export PATH=${JAVA_HOME}/bin:${PATH}
 export JAVA_OPTS=${glassfish_java_opts}
 
 start_precmd="glassfish_prestart"
