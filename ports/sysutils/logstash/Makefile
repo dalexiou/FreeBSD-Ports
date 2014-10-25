@@ -1,5 +1,5 @@
 # Created by: Enrico Maria Crisostomo <enrico.m.crisostomo@gmail.com>
-# $FreeBSD: head/sysutils/logstash/Makefile 334480 2013-11-21 12:35:12Z madpilot $
+# $FreeBSD:$
 
 PORTNAME=	logstash
 PORTVERSION=	1.4.2
