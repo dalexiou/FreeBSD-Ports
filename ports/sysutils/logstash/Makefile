@@ -14,7 +14,8 @@ COMMENT=	Tool for managing events and logs
 LICENSE=	APACHE20
 
 USE_JAVA=	yes
-JAVA_VERSION=	1.6+
+JAVA_VERSION=	1.7+
+JAVA_EXTRACT=	yes
 NO_BUILD=	yes
 
 LOGSTASH_DIR=	${PREFIX}/${PORTNAME}
