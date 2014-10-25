@@ -1,4 +1,4 @@
-# Created by: Daniel Solsona <daniel@ish.com.au>, Guido Falsi <madpilot@FreeBSD.org>
+# Created by: Enrico Maria Crisostomo <enrico.m.crisostomo@gmail.com>
 # $FreeBSD: head/sysutils/logstash/Makefile 334480 2013-11-21 12:35:12Z madpilot $
 
 PORTNAME=	logstash
@@ -8,7 +8,7 @@ MASTER_SITES=	https://download.elasticsearch.org/logstash/logstash/:0 \
 		https://github.com/emcrisostomo/jnr-ffi/releases/download/2.0.0/:1
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}:0 jnr-ffi-2.0.0.jar:1
 
-MAINTAINER=	regis.despres@gmail.com
+MAINTAINER=	enrico.m.crisostomo@gmail.com
 COMMENT=	Tool for managing events and logs
 
 LICENSE=	APACHE20
