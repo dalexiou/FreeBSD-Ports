@@ -1,4 +1,4 @@
-# Created by: Enrico Maria Crisostomo <enrico.m.crisostomo@gmail.com>
+# Created by: Daniel Solsona <daniel@ish.com.au>, Guido Falsi <madpilot@FreeBSD.org>
 # $FreeBSD:$
 
 PORTNAME=	logstash
