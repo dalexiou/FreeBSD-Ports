@@ -3,6 +3,7 @@
 
 PORTNAME=	logstash
 PORTVERSION=	1.4.2
+PORTREVISION=	1
 CATEGORIES=	sysutils java
 MASTER_SITES=	https://download.elasticsearch.org/logstash/logstash/:0 \
 		https://github.com/emcrisostomo/jnr-ffi/releases/download/2.0.0/:1
